@@ -17,8 +17,7 @@ RUN python3 -m pip install --upgrade pip \
 RUN npm install -g newman \
     && npm install -g newman-reporter-htmlextra
     
-RUN mkdir /opt \ 
-    cd /opt \
+RUN cd /opt; \
     wget https://download.oracle.com/otn/java/jdk/11.0.4+10/cf1bbcbf431a474eb9fc550051f4ee78/jdk-11.0.4_linux-x64_bin.tar.gz \
     && tar zxf jdk-11.0.4_linux-x64_bin.tar.gz \
     && ln -s jdk-11 java \

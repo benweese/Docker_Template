@@ -2,7 +2,7 @@
 This project is for practiceing Docker and creating my own container for my test.
 
 ## Badges
-[![CircleCI](https://circleci.com/gh/benweese/test_automation/tree/master.svg?style=shield)](https://circleci.com/gh/benweese/test_automation/tree/master) ![Actions](https://github.com/benweese/test_automation/workflows/Docker%20Image%20CI/badge.svg) ![GitHub](https://img.shields.io/github/license/benweese/test_automation.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/benweese/test_automation.svg)
+![Actions](https://github.com/benweese/test_automation/workflows/Docker%20Image%20CI/badge.svg) ![GitHub](https://img.shields.io/github/license/benweese/test_automation.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/benweese/test_automation.svg)
 
 ## Motivation
 This is to Learn Docker and create my own container.
@@ -11,10 +11,9 @@ This is to Learn Docker and create my own container.
 - [Docker](https://www.docker.com/)
 - [GitHub Actions](https://github.com/features/actions)
 - [Docker Hub](https://hub.docker.com/)
-- [Circle CI](https://circleci.com)
 
 ## Features
-With testing our Circle-CI runner as well as GitHub Actions runner.
+Using this image for testing UI or API.
 
 ## Code Example
 <b>Dockerfile</b>

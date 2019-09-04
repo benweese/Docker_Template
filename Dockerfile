@@ -11,7 +11,7 @@ RUN apk update && apk add \
     maven \
     --update npm
     
-RUN python3 -m pip3 install --upgrade pip \
+RUN python3 -m pip install --upgrade pip \
     && pip install pipenv \
     && pipenv install --dev \
     && npm install -g newman \

@@ -12,9 +12,9 @@ RUN apk update && apk add \
     --update npm
     
 RUN python3 -m pip install --upgrade pip \
-    && pip install pipenv \
-    && pipenv install --dev \
-    && npm install -g newman \
+    && pip install pipenv 
+
+RUN npm install -g newman \
     && npm install -g newman-reporter-htmlextra
     
 RUN mkdir /opt; cd /opt; \

@@ -1,0 +1,4 @@
+action "build" {
+  uses = "actions/docker/cli@master"
+  args = "build -t user/repo ."
+}

@@ -1,4 +1,4 @@
-workflow "Publish container" {
+workflow "Push" {
   resolves = [
     "Push",
     "GitHub Action for Docker",
@@ -8,6 +8,6 @@ workflow "Publish container" {
 
 action "GitHub Action for Docker" {
   uses = "actions/docker/cli@fe7ed3ce992160973df86480b83a2f8ed581cd50"
-  args = "build . --file Dockerfile --tag test_automation:$(date +%s)"
+  args = "build . "
   secrets = ["GITHUB_TOKEN"]
 }

@@ -1,6 +1,5 @@
 workflow "push" {
   resolves = [
-    "Push",
     "GitHub Action for Docker",
   ]
   on = "push"

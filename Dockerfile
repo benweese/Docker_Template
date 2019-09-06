@@ -30,3 +30,5 @@ ENV GRADLE_HOME /opt/gradle-5.6.1
 ENV PATH $PATH:$GRADLE_HOME/bin
 
 CMD cd test
+
+RUN pipenv install --dev

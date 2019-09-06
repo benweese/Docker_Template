@@ -2,7 +2,7 @@
 This project is for practiceing Docker and creating my own container for my test.
 
 ## Badges
-![Actions](https://github.com/benweese/test_automation/workflows/Docker%20Image%20CI/badge.svg) ![GitHub](https://img.shields.io/github/license/benweese/test_automation.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/benweese/test_automation.svg)
+![Actions](https://github.com/benweese/test_automation/workflows/Docker%20Image%20CI/badge.svg) ![Docker Hub](https://img.shields.io/docker/cloud/build/benweese/test_automation) ![GitHub](https://img.shields.io/github/license/benweese/test_automation.svg) ![GitHub issues](https://img.shields.io/github/issues-raw/benweese/test_automation.svg)
 
 ## Motivation
 This is to Learn Docker and create my own container.

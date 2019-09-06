@@ -31,4 +31,4 @@ ENV PATH $PATH:$GRADLE_HOME/bin
 
 CMD cd test
 
-RUN pipenv install --dev
+CMD pipenv install --dev

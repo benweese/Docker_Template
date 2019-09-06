@@ -1,8 +1,6 @@
 FROM alpine:latest
 MAINTAINER ben.weese@gmail.com
 
-COPY . /test
-
 RUN apk update && apk add \
     curl \
     git \
@@ -28,7 +26,3 @@ RUN wget -q https://services.gradle.org/distributions/gradle-5.6.1-bin.zip \
 # Set Gradle in the environment variables
 ENV GRADLE_HOME /opt/gradle-5.6.1
 ENV PATH $PATH:$GRADLE_HOME/bin
-
-CMD cd test
-
-CMD pipenv install --dev

@@ -1,4 +1,4 @@
-# Test Automation Docker
+# Docker Template for Test Automation
 This project is for practiceing Docker and creating my own container for my test.
 
 ## Badges
@@ -19,7 +19,7 @@ Using this image for testing UI or API.
 <b>Dockerfile</b>
 ```
 FROM alpine:latest
-MAINTAINER ben.weese@gmail.com
+LABEL maintainer="ben@benweese.dev"
 
 RUN apk update && apk add \
     curl \
